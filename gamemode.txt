@@ -1,0 +1,96 @@
+//Default stuff...
+ADDON Brick_Arch
+ADDON Brick_V15 
+ADDON Emote_Alarm 
+ADDON Emote_Confusion 
+ADDON Emote_Hate 
+ADDON Emote_Love 
+ADDON Light_Animated 
+ADDON Light_Basic 
+ADDON Particle_Basic 
+ADDON Particle_FX_Cans 
+ADDON Particle_Player 
+ADDON Particle_Tools 
+ADDON Particle_Grass
+ADDON Player_No_Jet
+ADDON Print_1x2f_Default
+ADDON Print_2x2f_Default
+ADDON Print_2x2r_Default
+ADDON Print_Letters_Default 
+ADDON Sound_Beeps 
+ADDON Sound_Phone 
+ADDON Sound_Synth4
+ADDON Vehicle_Tank
+ADDON Weapon_Rocket_Launcher
+ADDON Weapon_Gun
+ADDON Projectile_GravityRocket
+ADDON Vehicle_Jeep 
+ADDON Vehicle_Horse
+ADDON Vehicle_Rowboat 
+ADDON Weapon_Bow 
+ADDON Weapon_Spear 
+ADDON Weapon_Sword 
+ADDON Support_Doors
+ADDON Brick_Doors
+ADDON Brick_Halloween
+ADDON Brick_Teledoor
+ADDON Brick_Christmas_Tree
+ADDON Gamemode_Build_To_Survive
+ADDON Event_Camera_Control
+ADDON Support_Doors
+ADDON Brick_Checkpoint
+ADDON Support_Player_Persistence
+
+$MiniGame::Enabled 1
+$MiniGame::GameColor 15
+$MiniGame::InviteOnly 0
+$MiniGame::IncludeAllPlayersBricks 1
+$MiniGame::PlayersUseOwnBricks 0
+
+$MiniGame::Points_BreakBrick 0
+$MiniGame::Points_PlantBrick 0
+$MiniGame::Points_KillPlayer 0
+$MiniGame::Points_KillBot 0
+$MiniGame::Points_KillSelf 0
+$MiniGame::Points_Die 0
+   
+$MiniGame::RespawnTime -1
+$MiniGame::VehicleRespawnTime -1
+$MiniGame::BrickRespawnTime 60
+
+$MiniGame::UseSpawnBricks 0
+$MiniGame::FallingDamage 0
+$MiniGame::WeaponDamage 0
+$MiniGame::SelfDamage 1
+$MiniGame::VehicleDamage 0
+$MiniGame::BrickDamage 1
+$MiniGame::BotDamage 1
+$MiniGame::EnableWand 1
+$MiniGame::EnableBuilding 1
+$MiniGame::EnablePainting 1
+
+$MiniGame::PlayerDataBlockName No-Jet Player
+
+$MiniGame::StartEquipName0 0
+$MiniGame::StartEquipName1 0
+$MiniGame::StartEquipName2 0
+$MiniGame::StartEquipName3 0
+$MiniGame::StartEquipName4 0
+
+$MiniGame::TimeLimit 0
+
+$Server::Quota::Schedules 9999
+$Server::Quota::Misc 999
+$Server::Quota::Projectile 999
+$Server::Quota::Item 999
+$Server::Quota::Environment 9999
+$Server::Quota::Player 100
+$Server::Quota::Vehicle 50
+$Server::MaxPhysVehicles_Total 20
+$Server::WelcomeMessage \c2Welcome to the new and improved Build To Survive, %1! Type \c3/help \c2for info.
+
+//environment
+$EnvGuiServer::SimpleMode 1
+$EnvGuiServer::SkyFile Add-Ons/Sky_Skylands/Skylands.dml
+$EnvGuiServer::WaterFile None
+$EnvGuiServer::GroundFile Add-Ons/Ground_Plate/plate.ground
